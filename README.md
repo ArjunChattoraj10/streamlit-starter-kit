@@ -1,12 +1,16 @@
 # Streamlit Workshop
 
 Welcome! This repo contains exercises appropriate to getting started with **Streamlit**.  
-We’ll build a **multi-page Streamlit app** with three exercises plus an additional try-it-yourself exercise:
+We’ll build a **multi-page Streamlit app** with the following content:
 
-1. **Hello App** - your first Streamlit UI with slider, checkbox, and text input  
-2. **Data Explorer** - interactive DataFrame filtering and charting  
-3. **File Uploader** - upload your own CSV and inspect it
-4. **Build Your Own Chart** - an exercise to build your own chart
+1. **Streamlit Intro** - A start page showing the display of text
+2. **Hello App** - An introduction to Streamlit's Inputs and Outputs
+3. **Data Explorer** - Working with Dataframes and Charts, and an intro to the Sidebar
+4. **Countdown** - A countdown timer
+
+## Streamlit Documentation
+
+Refer to all Streamlit-related documentation here: https://docs.streamlit.io/
 
 ---
 
@@ -18,16 +22,15 @@ streamlit-workshop/
 ├── README.md
 ├── requirements.txt
 │
-├── app.py                         # Landing page / intro
+├── Streamlit_Intro.py             # Landing page / intro
 └── pages/
-    ├── 1_Hello_App.py             # Exercise 1
-    ├── 2_Data_Explorer.py         # Exercise 2
-    ├── 3_File_Uploader.py         # Exercise 3
-    └── 4_Build_Your_Own_Chart.py  # Bonus exercise
+    ├── 1_Hello_App.py            
+    ├── 2_Data_Explorer.py        
+    ├── 3_Countdown.py         
 
 ```
 
-`app.py`  is the **landing page**, with workshop instructions.  
+`Streamlit_Intro.py`  is the **landing page**, with workshop instructions.  
 
 Within `pages/`, each script becomes a separate page.  
 
@@ -45,7 +48,7 @@ cd streamlit-starter-kit
 
 Or you can download this repo as a Zip file and extract the contents to your device.
 
-2. Create a virtual environment (recommended):
+2. Create a virtual environment (*recommended*):
 
 ```bash
 python -m venv streamlit_venv
@@ -65,17 +68,17 @@ pip install -r requirements.txt
 
 ## Run the app
 ```bash
-streamlit run app.py
+streamlit run Streamlit_Intro.py
 ```
 
 This launches the landing page at http://localhost:8501
 
 Use the sidebar to navigate between:
 
+- Streamlit Intro
 - Hello App
 - Data Explorer
-- File Uploader
-- Bonus Build-Your-Own Chart
+- Countdown
 
 ---
 
