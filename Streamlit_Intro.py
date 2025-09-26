@@ -1,5 +1,3 @@
-# streamlit_page_title: "Intro"
-
 import streamlit as st
 
 st.set_page_config(page_title="Streamlit Hands-On Workshop", page_icon=":rocket:")
