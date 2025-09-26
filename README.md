@@ -26,7 +26,7 @@ streamlit-workshop/
 └── pages/
     ├── 1_Hello_App.py            
     ├── 2_Data_Explorer.py        
-    ├── 3_Countdown.py         
+    └── 3_Countdown.py         
 
 ```
 
