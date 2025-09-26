@@ -50,7 +50,7 @@ Or you can download this repo as a Zip file and extract the contents to your dev
 ```bash
 python -m venv streamlit_venv
 # macOS/Linux
-source .venv/bin/activate
+source streamlit_venv/bin/activate
 # Windows (Command Prompt)
 streamlit_venv\Scripts\activate
 ```

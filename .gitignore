@@ -1,0 +1,8 @@
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore streamlit_venv virtual environment directory
+streamlit_venv/
